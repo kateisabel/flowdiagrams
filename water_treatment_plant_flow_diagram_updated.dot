@@ -1,0 +1,25 @@
+
+digraph {
+    A1 [label="Bore 1"]
+    A2 [label="Bore 2"]
+    A3 [label="Bore 3"]
+    A4 [label="Bore 4"]
+    A5 [label="Bore 5"]
+    B [label="Greensand Filter"]
+    C [label="Cartridge Filters"]
+    D [label="UV Disinfection"]
+    E [label="Chlorine Dosing"]
+    F [label="Reservoir (Storage)"]
+    G [label="Network"]
+
+    A1 -> B
+    A2 -> B
+    A3 -> B
+    A4 -> B
+    A5 -> B
+    B -> C
+    C -> D
+    D -> E
+    E -> F
+    F -> G
+}
